@@ -1,4 +1,4 @@
-# Live site : http://devsohil.com
+# Live site : https://devsohil.com
 
 personal website created using React js
 
