@@ -1,0 +1,128 @@
+.projectContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5vw 0;
+  margin-bottom: 10vw;
+}
+
+.projectContainer .leftContainer {
+  width: 50vw;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  margin-top: 5vw;
+}
+
+.projectContainer .leftContainer video {
+  display: block;
+  max-width: 100%;
+  width: 27vw;
+  height: 35vw;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  transition: all 2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.projectContainer .rightContainer {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectContainer .rightContainer h1 {
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+.projectContainer .rightContainer a {
+  display: block;
+  text-decoration: none;
+  font-size: 4vw;
+  width: 80%;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.projectContainer .rightContainer a:hover {
+  background: #ff0044;
+}
+
+.mobileContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4vw;
+  text-align: center;
+}
+
+.mobileContainer img {
+  max-width: 100%;
+}
+.mobileContainer h3 {
+  display: block;
+  font-size: 6vw;
+  font-weight: 200;
+  border-bottom: 0.2vw solid;
+  cursor: pointer;
+  width: 100%;
+}
+
+.singleProject h4 {
+  all: unset;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3.6vw;
+  padding: 2vw 0;
+  width: 95%;
+  margin: 2vw auto;
+}
+.singleProject a {
+  font-size: 4vw;
+  display: inline-block;
+  padding: 1vw 6vw;
+  border-radius: 7px;
+}
+.singleProject .firstLink {
+  background: cyan;
+  width: min-content;
+  margin-right: 3vw;
+}
+.singleProject .secondLink {
+  background: #ff0044;
+  width: max-content;
+  margin-bottom: 3vw;
+}
+
+@media screen and (max-width: 720px) {
+  .projectContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectContainer .leftContainer {
+    width: 90%;
+  }
+  .projectContainer .leftContainer video {
+    width: 100vw;
+    height: 70vw;
+    margin-bottom: 3vw;
+  }
+  .projectContainer .rightContainer {
+    width: 90%;
+  }
+
+  .projectContainer .rightContainer a {
+    font-size: 8vw;
+  }
+}
+

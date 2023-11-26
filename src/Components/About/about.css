@@ -1,0 +1,47 @@
+.aboutContainer {
+  width: 79.5%;
+  margin: 0 auto;
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+}
+.aboutContainer h1 {
+  text-align: center;
+  margin-bottom: 2vw;
+  font-weight: 300;
+}
+.aboutContainer p:nth-child(2) {
+  font-size: 2vw;
+}
+
+.aboutContainer p:nth-child(3) {
+  font-size: 3vw;
+  opacity: 0.2;
+}
+.aboutContainer p:last-child {
+  font-size: 3.5vw;
+  opacity: 0.2;
+}
+
+.word {
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 720px) {
+  .aboutContainer {
+    height: min-content;
+    margin-bottom: 10vw;
+  }
+  .aboutContainer p:nth-child(2) {
+    font-size: 4vw;
+  }
+  .aboutContainer p:nth-child(3) {
+    font-size: 5vw;
+  }
+  .aboutContainer p:last-child {
+    font-size: 5vw;
+  }
+
+  .aboutContainer p .colours {
+    font-size: 5vw;
+  }
+}

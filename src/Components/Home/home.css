@@ -1,0 +1,169 @@
+.homeContainer {
+  width: 90%;
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  margin-bottom: 14vw;
+}
+.navContainer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.navContainer .logoContainer {
+  width: 3.5vw;
+  margin-left: 3vw;
+}
+
+.logoContainer .logo {
+  width: 3vw;
+  height: 3vw;
+  background: #ff0044;
+  border-radius: 50%;
+}
+
+.navContainer .navLinks {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  font-size: 1.5vw;
+}
+.navContainer .mobileMenu {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vw;
+  z-index: 199;
+  height: 70vw;
+  top: 8%;
+  border-radius: 10px;
+  right: 0%;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  overflow: hidden;
+  font-size: 1.5vw;
+}
+.navContainer .mobileMenu a {
+  font-size: 6vw;
+}
+
+.hamburger {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1.7vw;
+  right: 1vw;
+}
+.none {
+  display: none;
+}
+.display {
+  display: block;
+}
+.hamburgerIcon {
+  font-size: 5vw;
+}
+.mainContainer {
+  width: 97%;
+  margin: 0 auto;
+  padding-top: 15vw;
+}
+
+.mainContainer .beforeText {
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+}
+
+.mainContainer .beforeText p {
+  display: inline-block;
+}
+.mainContainer .beforeText .line {
+  display: inline-block;
+  width: 0%;
+  height: 0.05vw;
+  background: black;
+}
+
+.mainContainer .mainText {
+  font-size: 17vw;
+  text-transform: uppercase;
+  font-family: Helvetica-bold;
+  line-height: 1em;
+  margin-top: 2vw;
+}
+.mainContainer .mainText .firstP {
+  margin-bottom: -1vw;
+}
+
+.mainContainer .changeText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  font-size: 18vw;
+}
+.mainContainer .changeText span {
+  margin: 0;
+}
+.mainContainer .changeText .first {
+  position: absolute;
+  top: 0;
+  z-index: 199;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
+  background: #f0f0ff;
+  max-width: min-content;
+}
+
+.mainContainer .mainText > p {
+  text-align: right;
+}
+
+.mainContainer .mainText .lastP {
+  margin-top: -2vw;
+  overflow: hidden;
+  font-size: 12vw;
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vw;
+}
+.arrowContainer img {
+  width: 8vw;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 720px) {
+  .homeContainer {
+    height: min-content;
+    padding-top: 18vw;
+    margin-bottom: 20vw;
+  }
+  .mainContainer .beforeText {
+    font-size: 2.2vw;
+  }
+  .navContainer .navLinks {
+    font-size: 2.5vw;
+  }
+}

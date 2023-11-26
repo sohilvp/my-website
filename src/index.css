@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@font-face {
+  font-family: Helvetica-Regular;
+  src: url(../fonts/HelveticaNowDisplay-Regular.woff2);
+}
+@font-face {
+  font-family: Helvetica-bold;
+  src: url(../fonts/HelveticaNowDisplay-Bold.woff2);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica-Regular;
+  margin: 0 auto;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.colours,
+.colour {
+  color: #ff0044;
+}
+
+.first {
+  color: cyan;
+}
+
+.second {
+  color: #ff0044;
+}
+.darkMode {
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.darkModeIcon {
+  font-size: 2vw;
+  transition: color 2s ease-in-out, transform 2s ease-in-out;
+}
+.icon2 {
+  font-size: 2vw;
+  transition: color 2s ease-in-out, transform 2s ease-in-out;
+}
+
+.light {
+  color: black;
+}
+
+.dark {
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .darkMode {
+    width: 5.2vw;
+    height: 5.2vw;
+  }
+
+  .darkModeIcon {
+    font-size: 7vw;
+  }
+}
