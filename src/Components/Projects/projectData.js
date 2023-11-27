@@ -21,7 +21,7 @@ export const proDta =[
         title:"Memoir",
         used:"MERN app ",
         description:"Designed as a MERN (MongoDB, Express.js, React.js, Node.js) application, this platform ensures a seamless user experience across various devices. The responsive website allows users to interact dynamically, creating, updating, and deleting posts for a collaborative environment. The implementation includes secure user authentication and login functionality, enabling personalized account management for a safe and engaging user interaction.",
-        link:"https://techmemoir.netlify.com",
+        link:"https://techmemoir.onrender.com",
         repo:'https://github.com/sohilvp/MERN-memoir-frontend'
 
     },
